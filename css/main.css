@@ -1,0 +1,187 @@
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera pro/CeraPro-Regular.eot");
+    src: url("..//fonts/cera pro/CeraPro-Regular.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera pro/CeraPro-Regular.ttf") format('truttype'),
+        url("../fonts/cera pro/CeraPro-Regular.woff") format('woff'),
+        url("../fonts/cera pro/CeraPro-Regular.woff2") format('woff2');
+        font-weight: 400px;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera pro/CeraPro-Bold.eot");
+    src: url("..//fonts/cera pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera pro/CeraPro-Bold.ttf") format('truttype'),
+        url("../fonts/cera pro/CeraPro-Bold.woff") format('woff'),
+        url("../fonts/cera pro/CeraPro-Bold.woff2") format('woff2');
+        font-weight: 700px;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera pro/CeraPro-Medium.eot");
+    src: url("..//fonts/cera pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera pro/CeraPro-Medium.ttf") format('truttype'),
+        url("../fonts/cera pro/CeraPro-Medium.woff") format('woff'),
+        url("../fonts/cera pro/CeraPro-Medium.woff2") format('woff2');
+        font-weight: 500;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera pro/CeraPro-Black.eot");
+    src: url("..//fonts/cera pro/CeraPro-Black.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera pro/CeraPro-Black.ttf") format('truttype'),
+        url("../fonts/cera pro/CeraPro-Black.woff") format('woff'),
+        url("../fonts/cera pro/CeraPro-Black.woff2") format('woff2');
+        font-weight: 900;
+}
+*{
+    box-sizing: border-box;
+    font-family: "Cera pro";
+}
+
+.main{
+    padding: 30px 120px 52px 120px;
+}
+
+/* head */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-items{
+    font-family: "Cera pro";
+    font-weight: 400;
+    color: #3D3D3D;
+    font-size: 16px;
+    padding: 8px 0 25px;
+    font-family: "Cera Pro";
+    font-size: 16px;
+}
+
+.active{
+    font-family: "Cera pro";
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+}
+.login-button{
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-family: "Cera pro";
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+/* buner */
+
+.main-buner{
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    margin-top: 12px;
+    padding: 68px 43px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.div1{
+    margin-bottom: 7px;
+    color: #3D3D3D;
+    font-size: 14px;
+    line-height: 16px; 
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+.div2, .div2 span{ 
+    margin-bottom: 5px;
+    color: #3D3D3D;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    max-width: 530px;
+    text-transform: uppercase;
+    font-weight: 900px;
+    /* text-transform: uppercase; ламае тся из-за того что шрифт другой */
+}
+
+.div2 span{
+    color: #46A358;
+}
+
+.div3{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 557px;
+    margin-bottom: 44px;
+    font-weight: 400;
+}
+
+.shop-button{
+    padding: 10px 26px;
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+
+/* 7 hw */
+.hw7{
+    padding-top: 103px;
+    display: flex;
+}
+
+
+.Categories{
+    background-color: #FBFBFB;
+    max-width: 310px;
+    min-width: 0px;
+    padding: 14px 18px;
+    height: 774px;
+    margin-right: 50px;
+}
+.Categories div{
+    max-width: 91px;
+    min-width: 0px;
+    margin: 7px 0px 0px 12px;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.Categories span{
+    color: #46A358;
+    font-weight: 700;
+}
+.short-by{
+    display:flex;
+    height: 23px;
+    justify-content: space-between;
+    max-width: 838px;
+    min-width: 0px;
+}
+.short-by div{
+    display: flex;
+}

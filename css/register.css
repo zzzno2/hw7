@@ -1,0 +1,119 @@
+.centering{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#login-text{
+    line-height: 16px;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-family: "inter";
+}
+#register-text{
+    color:#46A358;
+    line-height: 16px;
+    font-size: 20px;
+    font-family: "inter";
+}
+#cherta-text{
+    font-family: "inter";
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 250;
+}
+#one-or-two{
+  display: flex;
+  width: 300px;
+  gap: 0px 11px;
+  margin-left: 120px; /*оно почемуто сьехало*/
+}
+#text241{
+    color: #3D3D3D;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "inter";
+}
+.form-style, div{
+    margin-bottom: 16px;
+}
+.block{
+    display: block;
+}
+.input-style{
+    padding: 12px 14px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA
+}
+input::placeholder{
+    color: #A5A5A5;
+    font-size: 14px;
+    font-weight:400;
+    font-family: "inter"; /*я не могу найти твой Cera Pro*/
+}
+footer{
+    width: 100%;
+    height:1.55vh;
+    position: absolute;
+    bottom: 0px;
+    background-color: #46A358;
+}
+#submit-button{
+    padding: 14px 133px;
+    border-radius: 5px;
+    background-color: #46A358;
+    display: flex;
+    margin: auto;
+    margin-top: 41px;
+    border: none;
+    color:white;
+    font-size: 16px;
+    font-family: 'inter';
+    font-weight: 700px;
+    margin-bottom: 36px;
+}
+#google-button{
+    padding: 10px 82px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap: 9px;
+}
+#google-button,span{
+    color: #727272;
+    font-size: 13px;
+    font-weight:500 ;
+    font-family: 'inter';
+}
+#faceboock-button{
+    padding: 10px 77px;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    gap: 4px;
+}
+#faceboock-button,span{
+    color: #727272;
+    font-size: 13px;
+    font-weight:500 ;
+    font-family: 'inter';
+}
+#div-or{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #555;
+    font-family: 'inter';
+    margin-bottom: 20px;
+    width: 338px;
+}
+#div-or hr{
+    flex: 1;
+    border: none;                 
+    border-top: 1px solid #ccc;
+}
+#div-or hr{
+    margin-inline: 6px;
+}
