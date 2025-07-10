@@ -179,9 +179,9 @@ header{
     display:flex;
     height: 23px;
     justify-content: space-between;
-    max-width: 838px;
+    max-width: 100%;
     min-width: 0px;
 }
-.short-by div{
+.short-by ul{
     display: flex;
 }
