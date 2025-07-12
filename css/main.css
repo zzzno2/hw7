@@ -149,21 +149,21 @@ header{
 .hw7{
     padding-top: 103px;
     display: flex;
+    justify-content: space-between;
 }
 
 
 .Categories{
     background-color: #FBFBFB;
-    max-width: 310px;
-    min-width: 0px;
+    width: 309px;
     padding: 14px 18px;
     height: 774px;
     margin-right: 50px;
 }
-.Categories div{
-    max-width: 91px;
-    min-width: 0px;
+.Categories ul{
     margin: 7px 0px 0px 12px;
+}
+.Categories ul li{
     color: #3D3D3D;
     font-family: "Cera Pro";
     font-size: 15px;
@@ -171,8 +171,16 @@ header{
     font-weight: 400;
     line-height: 40px;
 }
-.Categories span{
+.Categories ul li:first-child{
     color: #46A358;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    width: 93px;
+}
+.Categories span{
+    color: #3D3D3D;
+    font-size: 18px;
     font-weight: 700;
 }
 .short-by{
@@ -180,8 +188,61 @@ header{
     height: 23px;
     justify-content: space-between;
     max-width: 100%;
-    min-width: 0px;
+    min-width: 100%;
+    margin-bottom: 30px;
 }
 .short-by ul{
     display: flex;
+}
+
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 33px 70px;
+    justify-content: center ;
+}
+.products div{
+    background: #FBFBFB;
+    display: inline-block;
+}
+.products div div:nth-child(3) span:nth-child(1){
+    margin: 12px 0px 6px;
+    display: inline-block;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.products div div:nth-child(3) span:nth-child(3){
+    color: #46A358;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.products div:nth-child(1) div:nth-child(1){
+    padding: 31px 4px 19px;
+}
+.products div:nth-child(2) div:nth-child(1){
+    padding: 25px 4px ;
+}
+.products div:nth-child(3) div:nth-child(1){
+    padding: 24px 4px 26px;
+}
+.products div:nth-child(4) div:nth-child(1){
+    padding: 6px 13px 8px 21px;
+}
+.products div:nth-child(5) div:nth-child(1){
+    padding: 23px 4px 27px;
+}
+.products div:nth-child(6) div:nth-child(1){
+    padding: 23px 4px 27px;
+}
+.products div:nth-child(7) div:nth-child(1){
+    padding: 18px 4px 32px;
+}
+.products div:nth-child(8) div:nth-child(1){
+    padding: 28px 4px 22px;
+}
+.products div:nth-child(9) div:nth-child(1){
+    padding: 19px 4px 31px;
 }
