@@ -199,7 +199,7 @@ header{
     display: flex;
     flex-flow: row wrap;
     gap: 33px 70px;
-    justify-content: center ;
+    /* justify-content: center ; */
 }
 .products div{
     background: #FBFBFB;
@@ -245,4 +245,47 @@ header{
 }
 .products div:nth-child(9) div:nth-child(1){
     padding: 19px 4px 31px;
+}
+
+
+.strnum2{
+    display: flex;
+    margin: 100px 120px;
+    position: relative;
+    left: 100px;
+    gap: 10px;
+}
+.strnum2 div{
+    border: 1px solid #E5E5E5;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-weight: 300;
+}
+.strnum2 div:not(:last-child){
+    border-radius: 4px;
+}
+.strnum2 div:last-child svg{
+   position: relative;
+   left: 1px;
+   top: 1px;
+}
+.strnum2 div:first-child{
+    background-color: #46A358;
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 18px;
+    font-weight: 700;
+}
+.strnum1{
+    width: 100%;
+    margin-top: 100px;
+}
+.strnum-div{
+    display: flex;
 }
