@@ -276,3 +276,21 @@ header{
     justify-content: end;
     margin-top: 90px;
 }
+
+/* 02 */
+
+.em02{
+    margin-top: 94px;
+    gap: 28px;
+    display: flex;
+}
+
+.em02 div{
+    background-color: #FBFBFB;
+    display: flex;
+}
+.em02 div div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
