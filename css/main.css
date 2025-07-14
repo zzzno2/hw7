@@ -48,6 +48,7 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
+    font-family: "Cera pro";
 }
 
 .nav{
@@ -88,6 +89,7 @@ header{
     padding: 68px 43px;
     display:flex;
     justify-content: space-between;
+    font-family: "Cera pro";
 }
 
 .div1{
@@ -145,6 +147,7 @@ header{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    font-family: "Cera pro";
 }
 
 .left-site{
@@ -263,11 +266,6 @@ header{
     font-size: 18px;
     font-weight: 300;
     border-radius: 4px;
-}
-.strnum2 div:last-child svg{
-   position: relative;
-   left: 1px;
-   top: 1px;
 }
 .strnum2 div:first-child {
    background-color: #46A358;
