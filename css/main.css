@@ -1,42 +1,41 @@
 @font-face{
     font-family: 'Cera pro';
-    src: url("../fonts/cera pro/CeraPro-Regular.eot");
-    src: url("..//fonts/cera pro/CeraPro-Regular.eot#iefix")format('embedded-opentype'),
-        url("../fonts/cera pro/CeraPro-Regular.ttf") format('truttype'),
-        url("../fonts/cera pro/CeraPro-Regular.woff") format('woff'),
-        url("../fonts/cera pro/CeraPro-Regular.woff2") format('woff2');
-        font-weight: 400px;
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot");
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Regular.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff2") format('woff2');
+    font-weight: 400;
 }
 @font-face{
     font-family: 'Cera pro';
-    src: url("../fonts/cera pro/CeraPro-Bold.eot");
-    src: url("..//fonts/cera pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
-        url("../fonts/cera pro/CeraPro-Bold.ttf") format('truttype'),
-        url("../fonts/cera pro/CeraPro-Bold.woff") format('woff'),
-        url("../fonts/cera pro/CeraPro-Bold.woff2") format('woff2');
-        font-weight: 700px;
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot");
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Bold.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff2") format('woff2');
+    font-weight: 700;
 }
 @font-face{
     font-family: 'Cera pro';
-    src: url("../fonts/cera pro/CeraPro-Medium.eot");
-    src: url("..//fonts/cera pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
-        url("../fonts/cera pro/CeraPro-Medium.ttf") format('truttype'),
-        url("../fonts/cera pro/CeraPro-Medium.woff") format('woff'),
-        url("../fonts/cera pro/CeraPro-Medium.woff2") format('woff2');
-        font-weight: 500;
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot");
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Medium.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff2") format('woff2');
+    font-weight: 500;
 }
 @font-face{
     font-family: 'Cera pro';
-    src: url("../fonts/cera pro/CeraPro-Black.eot");
-    src: url("..//fonts/cera pro/CeraPro-Black.eot#iefix")format('embedded-opentype'),
-        url("../fonts/cera pro/CeraPro-Black.ttf") format('truttype'),
-        url("../fonts/cera pro/CeraPro-Black.woff") format('woff'),
-        url("../fonts/cera pro/CeraPro-Black.woff2") format('woff2');
-        font-weight: 900;
+    src: url("../fonts/cera-pro/CeraPro-Black.eot");
+    src: url("../fonts/cera-pro/CeraPro-Black.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Black.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Black.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Black.woff2") format('woff2');
+    font-weight: 900;
 }
 *{
     box-sizing: border-box;
-    font-family: "Cera pro";
 }
 
 .main{
@@ -57,17 +56,14 @@ header{
 }
 
 .nav-items{
-    font-family: "Cera pro";
     font-weight: 400;
     color: #3D3D3D;
     font-size: 16px;
     padding: 8px 0 25px;
-    font-family: "Cera Pro";
     font-size: 16px;
 }
 
 .active{
-    font-family: "Cera pro";
     font-weight: 700;
     border-bottom: 3px solid #46A358;
 }
@@ -80,7 +76,6 @@ header{
     align-items: center;
     gap: 4px;
     font-size: 16px;
-    font-family: "Cera pro";
     font-weight: 500;
     margin-bottom: auto;
 }
@@ -114,7 +109,6 @@ header{
     max-width: 530px;
     text-transform: uppercase;
     font-weight: 900px;
-    /* text-transform: uppercase; ламае тся из-за того что шрифт другой */
 }
 
 .div2 span{
@@ -145,27 +139,27 @@ header{
 
 
 
-/* 7 hw */
+/* 7-8 hw */
 .hw7{
-    padding-top: 103px;
+    margin-top: 103px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
-
+.left-site{
+    display: flex;
+    flex-direction: column;
+}
 .Categories{
     background-color: #FBFBFB;
-    width: 309px;
-    padding: 14px 18px;
-    height: 774px;
-    margin-right: 50px;
+    padding: 14px 18px 377px;
 }
 .Categories ul{
-    margin: 7px 0px 0px 12px;
+    margin: 7px 12px;
 }
 .Categories ul li{
     color: #3D3D3D;
-    font-family: "Cera Pro";
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -191,17 +185,23 @@ header{
     min-width: 100%;
     margin-bottom: 30px;
 }
-.short-by ul{
+.short-by ul:first-child{
     display: flex;
+    gap: 14px;
+}
+.short-by ul:last-child{
+    display: flex;
+    gap: 5px;
+    align-items: center;
 }
 
 .products{
     display: flex;
     flex-flow: row wrap;
     gap: 33px 70px;
-    /* justify-content: center ; */
+    justify-content: center ;
 }
-.products div{
+.products div div:first-child{
     background: #FBFBFB;
     display: inline-block;
 }
@@ -250,9 +250,6 @@ header{
 
 .strnum2{
     display: flex;
-    margin: 100px 120px;
-    position: relative;
-    left: 100px;
     gap: 10px;
 }
 .strnum2 div{
@@ -263,11 +260,8 @@ header{
     align-items: center;
     justify-content: center;
     color: #3D3D3D;
-    font-family: "Cera Pro";
     font-size: 18px;
     font-weight: 300;
-}
-.strnum2 div:not(:last-child){
     border-radius: 4px;
 }
 .strnum2 div:last-child svg{
@@ -275,17 +269,12 @@ header{
    left: 1px;
    top: 1px;
 }
-.strnum2 div:first-child{
-    background-color: #46A358;
-    color: #FFF;
-    font-family: "Cera Pro";
-    font-size: 18px;
-    font-weight: 700;
-}
-.strnum1{
-    width: 100%;
-    margin-top: 100px;
+.strnum2 div:first-child {
+   background-color: #46A358;
+   color: #fff;
 }
 .strnum-div{
     display: flex;
+    justify-content: end;
+    margin-top: 90px;
 }
