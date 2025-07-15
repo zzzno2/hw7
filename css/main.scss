@@ -1,0 +1,464 @@
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot");
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Regular.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff2") format('woff2');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot");
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Bold.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff2") format('woff2');
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot");
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Medium.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff2") format('woff2');
+    font-weight: 500;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Black.eot");
+    src: url("../fonts/cera-pro/CeraPro-Black.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Black.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Black.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Black.woff2") format('woff2');
+    font-weight: 900;
+}
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    padding: 30px 120px 52px 120px;
+}
+
+/* head *//////////////////////////////////////////////////////////////////////////////////////////////////
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
+    font-family: "Cera pro";
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+}
+
+.nav-items{
+    font-weight: 400;
+    color: #3D3D3D;
+    font-size: 16px;
+    padding: 8px 0 25px;
+    font-size: 16px;
+}
+
+.active{
+    font-weight: 700;
+    border-bottom: 3px solid #46A358;
+}
+.login-button{
+    border-radius: 6px;
+    background: #46A358;
+    padding: 8px 17px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+/* buner */////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.main-buner{
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    margin-top: 12px;
+    padding: 68px 43px;
+    display:flex;
+    justify-content: space-between;
+    font-family: "Cera pro";
+}
+
+.div1{
+    margin-bottom: 7px;
+    color: #3D3D3D;
+    font-size: 14px;
+    line-height: 16px; 
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    font-weight: 500px;
+}
+
+.div2, .div2 span{ 
+    margin-bottom: 5px;
+    color: #3D3D3D;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    max-width: 530px;
+    text-transform: uppercase;
+    font-weight: 900px;
+}
+
+.div2 span{
+    color: #46A358;
+}
+
+.div3{
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 557px;
+    margin-bottom: 44px;
+    font-weight: 400;
+}
+
+.shop-button{
+    padding: 10px 26px;
+    background-color: #46A358;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+
+/* 7-8 hw *////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.hw7{
+    margin-top: 103px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    font-family: "Cera pro";
+}
+
+.left-site{
+    display: flex;
+    flex-direction: column;
+}
+.Categories{
+    background-color: #FBFBFB;
+    padding: 14px 18px 377px;
+}
+.Categories ul{
+    margin: 7px 12px;
+}
+.Categories ul li{
+    color: #3D3D3D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+.Categories ul li:first-child{
+    color: #46A358;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    width: 93px;
+}
+.Categories span{
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 700;
+}
+.short-by{
+    display:flex;
+    height: 23px;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 30px;
+}
+.short-by ul:first-child{
+    display: flex;
+    gap: 14px;
+}
+.short-by ul:last-child{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 33px 70px;
+    justify-content: center ;
+}
+.products div div:first-child{
+    background: #FBFBFB;
+    display: inline-block;
+}
+.products div div:nth-child(3) span:nth-child(1){
+    margin: 12px 0px 6px;
+    display: inline-block;
+    color: #3D3D3D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.products div div:nth-child(3) span:nth-child(3){
+    color: #46A358;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.products div:nth-child(1) div:nth-child(1){
+    padding: 31px 4px 19px;
+}
+.products div:nth-child(2) div:nth-child(1){
+    padding: 25px 4px ;
+}
+.products div:nth-child(3) div:nth-child(1){
+    padding: 24px 4px 26px;
+}
+.products div:nth-child(4) div:nth-child(1){
+    padding: 6px 13px 8px 21px;
+}
+.products div:nth-child(5) div:nth-child(1){
+    padding: 23px 4px 27px;
+}
+.products div:nth-child(6) div:nth-child(1){
+    padding: 23px 4px 27px;
+}
+.products div:nth-child(7) div:nth-child(1){
+    padding: 18px 4px 32px;
+}
+.products div:nth-child(8) div:nth-child(1){
+    padding: 28px 4px 22px;
+}
+.products div:nth-child(9) div:nth-child(1){
+    padding: 19px 4px 31px;
+}
+
+
+.strnum2{
+    display: flex;
+    gap: 10px;
+}
+.strnum2 div{
+    border: 1px solid #E5E5E5;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 300;
+    border-radius: 4px;
+}
+.strnum2 div:first-child {
+   background-color: #46A358;
+   color: #fff;
+}
+.strnum-div{
+    display: flex;
+    justify-content: end;
+    margin-top: 90px;
+}
+
+/* 02 */////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.em02{
+    margin-top: 146px;
+    gap: 28px;
+    display: flex;
+    font-family: "Cera Pro";
+    justify-content: space-between;
+    div{
+        width: 586px;
+        position: relative;
+        background-color: #FBFBFB;
+        display: flex;
+        > div{
+            display: flex;
+            flex-flow: column ;
+            align-items: end;
+            padding: 37px 45px 46px 10px;    
+            gap: 10px;
+            height: 250px;
+            > span:nth-child(2){
+                width: 292px;
+            }
+        }
+            button:nth-child(3){
+            margin-top: 15px;
+            padding: 10px 27px;
+            gap: 2px;
+            border-radius: 6px;
+            background: #46A358;
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+        }
+        span{
+            text-align: end;
+        }
+    }
+    > div:nth-child(1) > img{
+        position: absolute;
+        top: -52px;
+        z-index: 1;
+    }
+    > div:nth-child(2) > img{
+        position: absolute;
+        top: -45px;
+        z-index: 1;
+    }
+}
+
+.em02 div:nth-child(2) div span:nth-child(1){
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px; /* 133.333% */
+    text-transform: uppercase;
+    max-width: 146px;
+}
+.em02 div:nth-child(1) div span:nth-child(1){
+    color: #3D3D3D;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px; /* 133.333% */
+    text-transform: uppercase;
+    max-width: 150px;
+}
+
+/* blog *////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.Blog{
+    // у меня был ещё один вариант, сдеелать .blog align-items: center; но тогда для .react-box justify-content: space-between; не раборал
+    margin-top: 138px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Cera pro";
+    align-items: center;
+    > h2{
+        color: #3D3D3D;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 16px; /* 53.333% */
+        margin-bottom: 15px;
+        // align-self: center;
+    }
+    > span:nth-child(2){
+        color: #727272;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; /* 171.429% */
+        margin-bottom: 35px;
+        // align-self: center;
+    }
+    > .rectangle-box{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 44px;
+        justify-content: space-between;
+        > div{
+            max-width: 268px;
+            
+            > div{
+                background: #FBFBFB;
+                padding: 9px 33px 13px 13px;
+                gap: 4px;
+            > a{
+                margin-top: 5px;
+                color: #3D3D3D;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px; /* 114.286% */
+                text-decoration: none;
+                align-items: center;
+                text-align: center;
+            }
+            > div:nth-child(1){
+                color: #46A358;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px; /* 114.286% */
+            }
+            > div:nth-child(2){
+                color: #3D3D3D;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px; /* 130% */
+            }
+            > div:nth-child(3){
+                color: #727272;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px; /* 157.143% */
+            }
+            }
+        }
+        > div:nth-child(1) > div{
+            > div:nth-child(1){
+                color: #46A358;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 16px; /* 114.286% */;
+            }
+            > div:nth-child(2){
+                color: #3D3D3D;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 26px; /* 130% */
+            }
+            > div:nth-child(3){
+                color: #727272;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 22px; /* 157.143% */
+            }
+        }
+        > div:nth-child(3) > div > a{
+            color: #46A358;
+        }
+    }
+}
+
+.rectangle-text1_2{
+    width: 189px;
+}
+.rectangle-text1_3{
+    width: 242px;
+}
+.rectangle-text2_2{
+    width: 202px;
+}
+.rectangle-text2_3{
+    width: 242px;
+}
+.rectangle-text3_2{
+    width: 174px;
+}
+.rectangle-text3_3{
+    width: 242px;
+}
+.rectangle-text4_2{
+    width: 169px;
+}
+.rectangle-text4_3{
+    width: 242px;
+}
