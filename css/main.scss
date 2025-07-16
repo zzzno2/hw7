@@ -290,7 +290,7 @@ header{
     display: flex;
 }
 .products >div:hover{
-    outline: #46A358 solid 2px;
+    border-top: 1px solid #46A358;
 }
 .products > div{
     position: relative;
@@ -301,16 +301,16 @@ header{
     left: 0;
     padding: 6px 9px;
     background: #46A358;
-    display: none;
+    // display: none;
     > span{
         color: #FFF;
         font-size: 16px;
         font-weight: 500;
     }
 }
-.products > div:hover > .discount13{
-    display: block;
-}
+// .products > div:hover > .discount13{
+//     display: block;
+// }
 
 
 
