@@ -198,12 +198,7 @@ header {
   justify-content: center;
 }
 
-.products div div:first-child {
-  background: #FBFBFB;
-  display: inline-block;
-}
-
-.products div div:nth-child(3) span:nth-child(1) {
+.name-product {
   margin: 12px 0px 6px;
   display: inline-block;
   color: #3D3D3D;
@@ -211,46 +206,119 @@ header {
   font-weight: 400;
 }
 
-.products div div:nth-child(3) span:nth-child(3) {
+.cena-product {
   color: #46A358;
   font-size: 18px;
   font-weight: 700;
 }
 
-.products div:nth-child(1) div:nth-child(1) {
+.prodict-image-contaner-1 {
   padding: 31px 4px 19px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(2) div:nth-child(1) {
+.prodict-image-contaner-2 {
   padding: 25px 4px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(3) div:nth-child(1) {
+.prodict-image-contaner-3 {
   padding: 24px 4px 26px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(4) div:nth-child(1) {
+.prodict-image-contaner-4 {
   padding: 6px 13px 8px 21px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(5) div:nth-child(1) {
+.prodict-image-contaner-5 {
   padding: 23px 4px 27px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(6) div:nth-child(1) {
+.prodict-image-contaner-6 {
   padding: 23px 4px 27px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(7) div:nth-child(1) {
+.prodict-image-contaner-7 {
   padding: 18px 4px 32px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(8) div:nth-child(1) {
+.prodict-image-contaner-8 {
   padding: 28px 4px 22px;
+  background: #FBFBFB;
+  display: inline-block;
 }
 
-.products div:nth-child(9) div:nth-child(1) {
+.prodict-image-contaner-9 {
   padding: 19px 4px 31px;
+  background: #FBFBFB;
+  display: inline-block;
+}
+
+.icons3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 67px;
+  left: 67px;
+  display: none;
+}
+.icons3 > div {
+  background-color: #FFF;
+  border-radius: 4px;
+  height: 35px;
+}
+.icons3 > .shop-icon {
+  padding: 8px 9px 7px 6px;
+}
+.icons3 > .heart-icon {
+  padding: 8px 8px 7px 7px;
+}
+.icons3 > .lupa-icon {
+  padding: 7px 6.1px 8px 9px;
+}
+
+.products > div:hover > .icons3 {
+  display: flex;
+}
+
+.products > div:hover {
+  outline: #46A358 solid 2px;
+}
+
+.products > div {
+  position: relative;
+}
+
+.discount13 {
+  position: absolute;
+  top: 14px;
+  left: 0;
+  padding: 6px 9px;
+  background: #46A358;
+  display: none;
+}
+.discount13 > span {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.products > div:hover > .discount13 {
+  display: block;
 }
 
 .strnum2 {
@@ -289,6 +357,7 @@ header {
   display: flex;
   font-family: "Cera Pro";
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 .em02 div {
   width: 586px;
