@@ -351,8 +351,8 @@ header {
   gap: 28px;
   display: flex;
   font-family: "Cera Pro";
-  justify-content: space-between;
   flex-flow: row wrap;
+  justify-content: center;
 }
 .em02 div {
   width: 586px;
