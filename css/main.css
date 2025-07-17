@@ -295,6 +295,10 @@ header {
   display: flex;
 }
 
+.products > div {
+  border-top: 1px solid transparent;
+}
+
 .products > div:hover {
   border-top: 1px solid #46A358;
 }

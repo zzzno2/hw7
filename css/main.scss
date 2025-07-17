@@ -289,7 +289,10 @@ header{
 .products > div:hover > .icons3{
     display: flex;
 }
-.products >div:hover{
+.products > div{
+    border-top: 1px solid transparent;
+}
+.products > div:hover{
     border-top: 1px solid #46A358;
 }
 .products > div{
@@ -311,21 +314,6 @@ header{
 // .products > div:hover > .discount13{
 //     display: block;
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .strnum2{
     display: flex;
