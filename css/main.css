@@ -44,7 +44,7 @@ header {
   gap: 50px;
 }
 
-.nav-items {
+.nav-items, .list3-in-nav {
   font-weight: 400;
   color: #3D3D3D;
   font-size: 16px;
@@ -66,14 +66,14 @@ header {
   left: -56px;
 }
 
-.nav-items:hover > .menu_1 {
+.list3-in-nav:hover > .menu_1 {
   display: block;
   position: absolute;
   width: 188px;
   background-color: #EDF6EE;
 }
 
-.menu_1 div {
+.menu_1 > li {
   padding: 7px 0px 8px 14px;
   color: #3D3D3D;
   font-family: "Encode Sans Expanded";
