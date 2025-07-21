@@ -100,8 +100,13 @@ header{
     font-weight: 400;
     align-items: center;
 }
-.last-menu-li > span{
-    margin-right: 89px;
+.last-menu-li{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    > svg{
+        margin-right: 13px;
+    }
 }
 .login-button{
     border-radius: 6px;
@@ -136,6 +141,9 @@ header{
     background: #1A712A;
     font-weight: 700;
     color: #fff;
+    > svg > path{
+        fill: #fff;
+    }
 }
 
 /* buner */////////////////////////////////////////////////////////////////////////////////////////////////////////////

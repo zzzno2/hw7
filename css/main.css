@@ -93,8 +93,13 @@ header {
   align-items: center;
 }
 
-.last-menu-li > span {
-  margin-right: 89px;
+.last-menu-li {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.last-menu-li > svg {
+  margin-right: 13px;
 }
 
 .login-button {
@@ -134,6 +139,9 @@ header {
   background: #1A712A;
   font-weight: 700;
   color: #fff;
+}
+.last-menu-li:hover > svg > path {
+  fill: #fff;
 }
 
 /* buner */
