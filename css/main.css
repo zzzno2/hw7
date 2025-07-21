@@ -54,9 +54,19 @@ header {
   position: relative;
 }
 
+.list3-in-nav {
+  width: 90px;
+  padding-left: 1px;
+}
+
+.list3-in-nav > a {
+  color: #3D3D3D;
+}
+
 .nav-items:hover {
   font-weight: 700;
   border-bottom: 3px solid #46A358;
+  padding-left: 0px;
 }
 
 .menu_1 {
@@ -64,6 +74,7 @@ header {
   position: absolute;
   top: 69px;
   left: -56px;
+  position: relative;
 }
 
 .list3-in-nav:hover > .menu_1 {
@@ -97,6 +108,32 @@ header {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: auto;
+}
+
+.menu_Priming {
+  position: absolute;
+  top: 0px;
+  left: 190px;
+  display: none;
+}
+
+.menu_Priming > li {
+  padding: 7px 14px 8px;
+  background: #EDF6EE;
+  color: #3D3D3D;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.last-menu-li:hover > .menu_Priming {
+  width: 178px;
+  display: block;
+}
+
+.last-menu-li:hover {
+  background: #1A712A;
+  font-weight: 700;
+  color: #fff;
 }
 
 /* buner */
