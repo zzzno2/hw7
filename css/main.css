@@ -28,7 +28,7 @@
 }
 
 .main {
-  padding: 30px 120px 52px 120px;
+  padding: 30px 120px 13px 120px;
 }
 
 /* head */
@@ -657,8 +657,9 @@ header {
   margin-top: 100px;
   justify-content: center;
   display: flex;
-  gap: 26px;
-  max-width: 1200px;
+  gap: 1.81vw;
+  width: 83.33vw;
+  justify-content: space-between;
 }
 
 .Rectangle-greenline {
@@ -669,7 +670,7 @@ header {
 }
 
 .Garden-Care {
-  margin-right: 8px;
+  margin-right: 0.56vw;
 }
 
 .ananas-svg-box {
@@ -723,7 +724,7 @@ header {
 }
 
 .Plant-Renovation {
-  margin-left: 1px;
+  margin-left: 0.069vw;
 }
 
 .kaktus-svg-box {
@@ -833,7 +834,7 @@ header {
 }
 
 .Would-you-like {
-  margin-left: 32px;
+  margin-left: 2.22vw;
 }
 
 .text1-in-Would-you-like {
@@ -898,36 +899,137 @@ header {
 .div2-inbackground {
   background: rgba(70, 163, 88, 0.1);
   align-items: center;
-  border-top: 1px solid #46A358;
-  border-bottom: 1px solid #46A358;
+  border-top: 1px solid rgba(70, 163, 89, 0.1176470588);
+  border-bottom: 1px solid rgba(70, 163, 89, 0.2470588235);
   display: flex;
   padding: 25px;
+  width: 83.33VW;
 }
 .div2-inbackground > .div2_1-inbackground {
   margin: 0px 60px 0 87px;
+  display: flex;
+  align-items: center;
 }
-.div2-inbackground > .div2_1-inbackground div {
+.div2-inbackground > .div2_1-inbackground > div {
   color: #3D3D3D;
   font-family: "Cera Pro";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px; /* 157.143% */
   width: 176px;
+  margin-left: 12.75px;
 }
 .div2-inbackground > .div2_2-inbackground {
   margin-right: 73px;
+  display: flex;
+  align-items: center;
 }
-.div2-inbackground > .div2_2-inbackground div {
+.div2-inbackground > .div2_2-inbackground > svg {
+  position: relative;
+  top: 0.1px;
+}
+.div2-inbackground > .div2_2-inbackground > div {
   color: #3D3D3D;
   font-family: "Cera Pro";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px; /* 157.143% */
+  margin-left: 12.08px;
 }
-.div2-inbackground > .div2_3-inbackground div {
+.div2-inbackground > .div2_3-inbackground {
+  display: flex;
+  align-items: center;
+}
+.div2-inbackground > .div2_3-inbackground > svg {
+  position: relative;
+  top: 1.59px;
+}
+.div2-inbackground > .div2_3-inbackground > div {
   color: #3D3D3D;
   font-family: "Cera Pro";
   font-size: 14px;
   font-weight: 400;
   line-height: 22px; /* 157.143% */
+  margin-right: 267px;
+  margin-left: 10.17px;
+}
+
+.div3-inbackground {
+  background: #FBFBFB;
+  padding: 33px 0px 29px 23px;
+  display: flex;
+  border-bottom: rgba(70, 163, 88, 0.2) solid 1px;
+  width: 83.33VW;
+  justify-content: space-between;
+}
+.div3-inbackground > .div3_1-inbackground {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  width: 43.4vw;
+}
+.div3-inbackground > .div3_1-inbackground > .ul-in-div3-inbackground > li:first-child {
+  color: #3D3D3D;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+  margin-bottom: 8px;
+}
+.div3-inbackground > .div3_1-inbackground > .ul-in-div3-inbackground > li {
+  color: #3D3D3D;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+.div3-inbackground .div3_2-inbackground {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10.76vw;
+}
+.div3-inbackground .div3_2-inbackground > .text1-in-div-in-div3-inbackground {
+  color: #3D3D3D;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+  margin-bottom: 20px;
+}
+.div3-inbackground .div3_2-inbackground > .icons-f_i_t_l_y {
+  display: flex;
+  margin-bottom: 33px;
+  gap: 10px;
+}
+.div3-inbackground .div3_2-inbackground > .icons-f_i_t_l_y > div {
+  border: 1px solid rgba(70, 163, 88, 0.2);
+  border-radius: 4px;
+  width: 31px;
+  height: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div3-inbackground .div3_2-inbackground > .text2-in-div-in-div3-inbackground {
+  color: #3D3D3D;
+  font-family: "Cera Pro";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+  margin-bottom: 13px;
+}
+.div3-inbackground .div3_2-inbackground > .cards-icons4 {
+  background-image: url("../img/main img/cards.png");
+  width: 224px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+
+.end {
+  margin-top: 7px;
+  color: #3D3D3D;
+  font-family: "Cera Pro";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
 }/*# sourceMappingURL=main.css.map */
