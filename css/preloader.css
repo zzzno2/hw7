@@ -1,0 +1,30 @@
+.loader{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load-circle{
+    height: 30vh;
+    width: 30vh;
+    border-right: .6vw solid #36d5cd;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: spin .8s linear infinite;
+}
+
+.loading-text{
+    color: #fff;
+    font-family:monospace;
+    position: absolute;
+}
+
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}

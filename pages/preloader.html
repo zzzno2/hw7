@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>preloader</title>
+    <link rel="stylesheet" href="../css/preloader.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<body onload="myFunction()">
+    <div class="loader">
+        <div class="load-circle"></div>
+        <h2 class="loading-text">loading...</h2>
+    </div>
+    
+    <script> //хотел сделать чтоб пока прогружались элементы, но не получилось
+        var preloader =
+        document.getElementById("loading");
+        function myFunction(){
+            preloader.style.display="none";
+        }
+    </script>
+</body>
+</html>

@@ -284,6 +284,19 @@ header {
   transition: font-weight 0.4s;
 }
 
+.Categories-label-1 > input:checked ~ .orb-checkbox {
+  position: relative;
+  left: 50px;
+  top: 15.5px;
+}
+
+.orb-checkbox {
+  width: 10px;
+  height: 10px;
+  background: #46A358;
+  border-radius: 5px;
+}
+
 .Categories span {
   color: #3D3D3D;
   font-size: 18px;
