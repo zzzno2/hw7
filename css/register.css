@@ -1,3 +1,33 @@
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot");
+    src: url("../fonts/cera-pro/CeraPro-Regular.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Regular.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Regular.woff2") format('woff2');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot");
+    src: url("../fonts/cera-pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Medium.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Medium.woff2") format('woff2');
+    font-weight: 500;
+}
+
+body{
+    padding-top: 7.93vh;
+    font-family: 'Cera pro';
+}
+
+.escape{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+
 .centering{
     display: flex;
     flex-direction: column;

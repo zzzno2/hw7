@@ -7,15 +7,15 @@
 }
 @font-face {
   font-family: "Cera pro";
-  src: url("../fonts/cera-pro/CeraPro-Bold.eot");
-  src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/cera-pro/CeraPro-Bold.ttf") format("truttype"), url("../fonts/cera-pro/CeraPro-Bold.woff") format("woff"), url("../fonts/cera-pro/CeraPro-Bold.woff2") format("woff2");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Cera pro";
   src: url("../fonts/cera-pro/CeraPro-Medium.eot");
   src: url("../fonts/cera-pro/CeraPro-Medium.eot#iefix") format("embedded-opentype"), url("../fonts/cera-pro/CeraPro-Medium.ttf") format("truttype"), url("../fonts/cera-pro/CeraPro-Medium.woff") format("woff"), url("../fonts/cera-pro/CeraPro-Medium.woff2") format("woff2");
   font-weight: 500;
+}
+@font-face {
+  font-family: "Cera pro";
+  src: url("../fonts/cera-pro/CeraPro-Bold.eot");
+  src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix") format("embedded-opentype"), url("../fonts/cera-pro/CeraPro-Bold.ttf") format("truttype"), url("../fonts/cera-pro/CeraPro-Bold.woff") format("woff"), url("../fonts/cera-pro/CeraPro-Bold.woff2") format("woff2");
+  font-weight: 700;
 }
 @font-face {
   font-family: "Cera pro";
@@ -52,11 +52,11 @@ header {
   font-size: 16px;
   border-bottom: 3px solid transparent;
   position: relative;
+  transition: all 0.3s;
 }
 
 .list3-in-nav {
   width: 90px;
-  padding-left: 1px;
 }
 
 .list3-in-nav > a {
@@ -173,9 +173,11 @@ header {
   background: #1A712A;
   font-weight: 700;
   color: #fff;
+  transition: background-color 0.8s;
 }
 .last-menu-li:hover > svg > path {
   fill: #fff;
+  transition: all 0.8s;
 }
 
 /* buner */
@@ -254,24 +256,32 @@ header {
   padding: 14px 18px 377px;
 }
 
-.Categories ul {
+.Categories-ul {
   margin: 7px 12px;
 }
 
-.Categories ul li {
+.Categories-li {
   color: #3D3D3D;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 40px;
 }
+.Categories-li > .Categories-label {
+  display: flex;
+  justify-content: space-between;
+}
+.Categories-li > .Categories-label > input {
+  display: none;
+}
+.Categories-li > .Categories-label > input:checked ~ .Categories-li > div {
+  color: red;
+}
 
-.Categories ul li:first-child {
+.Categories-label > input:checked ~ .Categories-checkbox-div {
   color: #46A358;
-  font-size: 15px;
   font-weight: 700;
-  line-height: 40px; /* 266.667% */
-  width: 93px;
+  transition: font-weight 0.4s;
 }
 
 .Categories span {
@@ -406,6 +416,7 @@ header {
 
 .products > div {
   border-top: 1px solid transparent;
+  transition: all 0.4s;
 }
 
 .products > div:hover {

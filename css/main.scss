@@ -9,21 +9,21 @@
 }
 @font-face{
     font-family: 'Cera pro';
-    src: url("../fonts/cera-pro/CeraPro-Bold.eot");
-    src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
-        url("../fonts/cera-pro/CeraPro-Bold.ttf") format('truttype'),
-        url("../fonts/cera-pro/CeraPro-Bold.woff") format('woff'),
-        url("../fonts/cera-pro/CeraPro-Bold.woff2") format('woff2');
-    font-weight: 700;
-}
-@font-face{
-    font-family: 'Cera pro';
     src: url("../fonts/cera-pro/CeraPro-Medium.eot");
     src: url("../fonts/cera-pro/CeraPro-Medium.eot#iefix")format('embedded-opentype'),
         url("../fonts/cera-pro/CeraPro-Medium.ttf") format('truttype'),
         url("../fonts/cera-pro/CeraPro-Medium.woff") format('woff'),
         url("../fonts/cera-pro/CeraPro-Medium.woff2") format('woff2');
     font-weight: 500;
+}
+@font-face{
+    font-family: 'Cera pro';
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot");
+    src: url("../fonts/cera-pro/CeraPro-Bold.eot#iefix")format('embedded-opentype'),
+        url("../fonts/cera-pro/CeraPro-Bold.ttf") format('truttype'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff") format('woff'),
+        url("../fonts/cera-pro/CeraPro-Bold.woff2") format('woff2');
+    font-weight: 700;
 }
 @font-face{
     font-family: 'Cera pro';
@@ -34,12 +34,15 @@
         url("../fonts/cera-pro/CeraPro-Black.woff2") format('woff2');
     font-weight: 900;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 *{
     box-sizing: border-box;
 }
 
-.main{    padding: 30px 120px 13px 120px;
+.main{ 
+    padding: 30px 120px 13px 120px;
 }
 
 /* head *//////////////////////////////////////////////////////////////////////////////////////////////////
@@ -64,10 +67,10 @@ header{
     font-size: 16px;
     border-bottom: 3px solid transparent;
     position: relative;
+    transition: all .3s ;
 }
 .list3-in-nav{
     width: 90px;
-    padding-left: 1px;
 }
 .list3-in-nav > a{
     color: #3D3D3D;
@@ -172,13 +175,17 @@ header{
     color: #fff;
     > svg > path{
         fill: #fff;
+        transition: all .8s;
     }
+    transition: background-color .8s;
 }
 
 /* buner */////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 .main-buner{
-    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    background: -webkit-linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    background:    -moz-linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    background:         linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
     margin-top: 12px;
     padding: 68px 43px;
     display:flex;
@@ -252,23 +259,52 @@ header{
     background-color: #FBFBFB;
     padding: 14px 18px 377px;
 }
-.Categories ul{
+.Categories-ul{
     margin: 7px 12px;
 }
-.Categories ul li{
+.Categories-li{
     color: #3D3D3D;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+
+    > .Categories-label{
+        display: flex;
+    justify-content: space-between;
+    
+        > input{
+            display: none;
+        }
+    
+        > input:checked ~ .Categories-li> div{
+            color: red;
+        }
+    }
 }
-.Categories ul li:first-child{
+.Categories-label > input:checked ~ .Categories-checkbox-div{
     color: #46A358;
-    font-size: 15px;
     font-weight: 700;
-    line-height: 40px; /* 266.667% */
-    width: 93px;
+    transition: font-weight .4s;
 }
+
+// .Categories-label-1 > input:checked  .orb-checkbox{
+//     position: relative;
+//     left: 50px;
+//     top: 15.5px;
+// }
+// .Categories-label-2 > input:checked  .orb-checkbox{
+//     position: relative;
+//     left: 50px;
+//     top: 15.5px;
+// }
+// .orb-checkbox{
+//     width: 10px;
+//     height: 10px;
+//     background: #46A358;
+//     border-radius: 5px;
+// }
+
 .Categories span{
     color: #3D3D3D;
     font-size: 18px;
@@ -385,6 +421,7 @@ header{
 }
 .products > div{
     border-top: 1px solid transparent;
+    transition: all .4s;
 }
 .products > div:hover{
     border-top: 1px solid #46A358;
