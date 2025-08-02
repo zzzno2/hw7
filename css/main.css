@@ -284,13 +284,11 @@ header {
   transition: font-weight 0.4s;
 }
 
-.Categories-label-1 > input:checked ~ .orb-checkbox {
-  position: relative;
-  left: 50px;
-  top: 15.5px;
+.Categories-label-1 > input:checked #orb-checkbox {
+  color: red;
 }
 
-.orb-checkbox {
+#orb-checkbox {
   width: 10px;
   height: 10px;
   background: #46A358;
