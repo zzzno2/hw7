@@ -919,7 +919,7 @@ header {
 }
 
 .div2-inbackground {
-  background: rgba(70, 163, 88, 0.1);
+  background: linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
   align-items: center;
   border-top: 1px solid rgba(70, 163, 89, 0.1176470588);
   border-bottom: 1px solid rgba(70, 163, 89, 0.2470588235);

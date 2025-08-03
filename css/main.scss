@@ -912,7 +912,9 @@ header{
 // div2//////////////////////////
 
 .div2-inbackground{
-    background: rgba(70, 163, 88, 0.10);
+    background: -webkit-linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    background:    -moz-linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
+    background:         linear-gradient(90deg, #EDF6EF 0%, #52C368 100%);
     align-items: center;
     border-top: 1px solid #46a3591e;
     border-bottom: 1px solid #46a3593f;
