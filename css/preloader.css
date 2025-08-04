@@ -1,11 +1,11 @@
 body{
-    background-color: black;
+    background-color: rgba(245, 245, 245, 0.50);
 }
 
 .loader{
     width: 100vw;
     height: 100vh;
-    background-color: black;
+    background-color: rgba(245, 245, 245, 0.50);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ body{
 .load-circle{
     height: 30vh;
     width: 30vh;
-    border-right: .6vw solid #36d5cd;
+    border-right: .6vw solid #46A358;
     border-radius: 50%;
     position: relative;
     display: flex;
@@ -24,7 +24,7 @@ body{
 }
 
 .loading-text{
-    color: #fff;
+    color: #3D3D3D;
     font-family:monospace;
     position: absolute;
 }
@@ -35,22 +35,22 @@ body{
 }
 
 
-.list{
+/* .list{
     width: 100px;
     height: 200px;
     background: rgb(36, 172, 21);
-    position: absolute;
+    position: absolute; 
     left: 500px;
-    animation: spin-list 2s ease-in-out alternate infinite;
+    animation: spin-list 4s ease-in-out alternate infinite;
 }
 
 @keyframes spin-list{
     0%{ 
-        transform: rotate(0deg);
+        transform: rotate(-10deg);
         opacity: 1;
     }
     100%{ 
-        transform: rotate(360deg);
+        transform: rotate(730deg);
         opacity: .1;
     }
-}
+} */
